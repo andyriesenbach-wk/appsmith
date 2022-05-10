@@ -71,4 +71,7 @@ export class CommonLocators {
     _listWidget = "div[type='LIST_WIDGET']"
     _dropdownText = ".t--dropdown-option"
     _jsonFormInputField = (fieldName: string) =>  `.t--jsonformfield-${fieldName} input`
+    _jsEditorSettingsTab = ".tab-title:contains('Settings')"
+    _jsEditorFunctionSetting = ".t--on-page-load-setting"
+    _jsEditorUniqueFunctionSettingClass = (functionName: string)=>`${functionName}-on-page-load-setting`
 }
